@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>
+      try {
+        var q = new URLSearchParams(location.search).get("theme");
+        if (q === "light" || q === "dark") localStorage.setItem("oracle.theme", q);
+        var t = localStorage.getItem("oracle.theme");
+        document.documentElement.dataset.theme = t === "dark" ? "dark" : "light";
+      } catch (e) {}
+    </script>
+    <title>Oracle · skill-ranked perps intelligence</title>
+    <meta name="description" content="See what skilled perps wallets are doing, live. Skill-ranked trade tape, sentiment and entry zones across Phoenix, Hyperliquid, GMX and Lighter. Research tooling, not financial advice." />
+    <link rel="canonical" href="https://oracleperps.com/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Oracle" />
+    <meta property="og:title" content="Oracle · skill-ranked perps intelligence" />
+    <meta property="og:description" content="See what skilled perps wallets are doing, live. Skill-ranked trade tape, sentiment and entry zones across Phoenix, Hyperliquid, GMX and Lighter." />
+    <meta property="og:url" content="https://oracleperps.com/" />
+    <meta property="og:image" content="https://oracleperps.com/og-v2.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Oracle · skill-ranked perps intelligence" />
+    <meta name="twitter:description" content="See what skilled perps wallets are doing, live. Skill-ranked tape, sentiment and entry zones across Phoenix, Hyperliquid, GMX and Lighter." />
+    <meta name="twitter:image" content="https://oracleperps.com/og-v2.png" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <script type="module" crossorigin src="./assets/index-CRlpX9xB.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/react-Ds7D3P6J.js">
+    <link rel="stylesheet" crossorigin href="./assets/index-99YRC3Wy.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
